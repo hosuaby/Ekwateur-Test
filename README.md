@@ -1,3 +1,22 @@
+# Usage
+
+Build:
+
+```shell
+$ ./gradlew clean build
+$ unzip app/build/distributions/app.zip -d app/build
+```
+
+Launch:
+
+```shell
+$ ./app/build/app/bin/app
+```
+
+<p align="center">
+    <img src="./doc/demo.gif"/>
+</p>
+
 # Test Technique Java Backend - Ekwateur
 
 L'objectif de ce test est l'écriture d'un programme purement backend. Il peut éventuellement servir de support dans le cadre
